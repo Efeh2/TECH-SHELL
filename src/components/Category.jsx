@@ -10,7 +10,7 @@ const Category = () => {
         {id: 'hphone', name: 'Head-Phone', image: images.hphone},
         {id: 'swatch', name: 'Smart-Watch', image: images.swatch},
         {id: 'speaker', name: 'Speaker', image: images.speaker},
-        {id: 'monitor', name: 'Monitor&Laptops', image: images.monitor}
+        {id: 'monitor', name: 'Monitor&Laptops', image: images.monitor},
     ];
 
     const products = {
