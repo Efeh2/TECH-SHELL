@@ -6,10 +6,6 @@ A modern, responsive React + Vite storefront for the Tech Shell brand.
 
 - Website: https://tech-shell.vercel.app/
 
-## Screenshot
-
-![Tech Shell Store screenshot](./screenshot.png)
-
 ## Overview
 
 TECH-SHELL is an ecommerce homepage built with React and Vite. The store features a hero section, product categories, shop navigation, and a cart page for a polished shopping experience.
