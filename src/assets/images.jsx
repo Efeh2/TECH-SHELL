@@ -1,14 +1,14 @@
-import pcase from './case.jpg'
-import pcase1 from './case1.jpg'
-import pcase2 from './case2.jpg'
-import pcase3 from './case3.jpg'
-import pcase4 from './case4.jpg'
+import pcase from './pcase.jpg'
+import pcase1 from './pcase1.jpg'
+import pcase2 from './pcase2.jpg'
+import pcase3 from './pcase3.jpg'
+import pcase4 from './pcase4.jpg'
 
-import pbank from './pbank10k.jpg'
-import pbank1 from './pbank20k.jpg'
-import pbank2 from './pbank30k.jpg'
-import pbank3 from './pbank5k.jpg'
-import pbank4 from './pbankusb.jpg'
+import pbank from './pbank.jpg'
+import pbank1 from './pbank1.jpg'
+import pbank2 from './pbank2.jpg'
+import pbank3 from './pbank3.jpg'
+import pbank4 from './pbank4.jpg'
 
 import hphone from './hphone.jpg'
 import hphone1 from './hphone1.jpg'
@@ -29,7 +29,6 @@ import speaker3 from './speaker3.jpg'
 import speaker4 from './speaker4.jpg'
 
 import monitor from './monitor.jpg'
-import monitor1 from './monitor1.jpg'
 import monitor2 from './monitor2.jpg'
 import monitor3 from './monitor3.jpg'
 import monitor4 from './monitor4.jpg'
@@ -61,7 +60,6 @@ export const images = {
     speaker3,
     speaker4,
     monitor,
-    monitor1,
     monitor2,
     monitor3,
     monitor4

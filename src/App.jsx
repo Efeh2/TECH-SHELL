@@ -10,7 +10,7 @@ const App = () => {
       duration: 1000,
       once: false,
       easing: 'ease-out-cubic',
-      offest: 100,
+      offset: 100,
     })
   }, []);
   return (
