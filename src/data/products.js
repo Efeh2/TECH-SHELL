@@ -13,7 +13,7 @@ export const products = [
   {
     id: 'pcase-1',
     category: 'pcase',
-    name: 'Aura Armor Case',
+    name: 'Stylish Iphone Case',
     price: 4.99,
     priceLabel: '$4.99',
     rating: 4.8,
@@ -24,7 +24,7 @@ export const products = [
   {
     id: 'pcase-2',
     category: 'pcase',
-    name: 'Clear MagSafe Shield',
+    name: 'Clear MagSafe Samsung Case',
     price: 5.99,
     priceLabel: '$5.99',
     rating: 4.6,
@@ -35,7 +35,7 @@ export const products = [
   {
     id: 'pcase-3',
     category: 'pcase',
-    name: 'Silicone Grip Case',
+    name: 'Silicone Samsung Case',
     price: 6.99,
     priceLabel: '$6.99',
     rating: 4.7,
@@ -46,7 +46,7 @@ export const products = [
   {
     id: 'pcase-4',
     category: 'pcase',
-    name: 'Pixel Matte Defender',
+    name: 'Pixel Magsafe phone case',
     price: 7.99,
     priceLabel: '$7.99',
     rating: 4.9,
@@ -123,7 +123,7 @@ export const products = [
   {
     id: 'hphone-3',
     category: 'hphone',
-    name: 'AirWave Sport',
+    name: 'JBL Sport',
     price: 27.99,
     priceLabel: '$27.99',
     rating: 4.5,
@@ -200,7 +200,7 @@ export const products = [
   {
     id: 'speaker-2',
     category: 'speaker',
-    name: 'Crescendo Mini',
+    name: 'JBL Mini',
     price: 19.99,
     priceLabel: '$19.99',
     rating: 4.4,
@@ -233,7 +233,7 @@ export const products = [
   {
     id: 'monitor-1',
     category: 'monitor',
-    name: 'Vivid 24" Gaming',
+    name: 'Lenovo 24" Gaming',
     price: 149.99,
     priceLabel: '$149.99',
     rating: 4.6,
@@ -244,7 +244,7 @@ export const products = [
   {
     id: 'monitor-2',
     category: 'monitor',
-    name: 'Crystal 27" Pro',
+    name: 'MacBook Pro',
     price: 189.99,
     priceLabel: '$189.99',
     rating: 4.8,
@@ -255,7 +255,7 @@ export const products = [
   {
     id: 'monitor-3',
     category: 'monitor',
-    name: 'Edge 32" Ultra',
+    name: 'HP EliteBook',
     price: 229.99,
     priceLabel: '$229.99',
     rating: 4.5,
