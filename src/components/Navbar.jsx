@@ -1,4 +1,4 @@
-import { Menu, Search, ShoppingBag, X, Moon, Sun } from 'lucide-react'
+import { Menu, ShoppingBag, X, Moon, Sun } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
 import React, { useState } from 'react'
 
@@ -44,9 +44,6 @@ const Navbar = ({ theme, toggleTheme, cartCount }) => {
           <div className='flex items-center gap-3'>
             <button onClick={toggleTheme} className='rounded-full border p-2 transition hover:border-cyan-400'>
               {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
-            </button>
-            <button className='rounded-full border p-2 transition hover:border-cyan-400'>
-              <Search size={20} className={secondaryText} />
             </button>
             <NavLink to='/cart' className='relative rounded-full border p-2 transition hover:border-cyan-400'>
               <ShoppingBag size={20} className={secondaryText} />
