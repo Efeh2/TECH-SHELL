@@ -17,8 +17,8 @@ const Navbar = ({ theme, toggleTheme, cartCount }) => {
   const borderClass = theme === 'dark' ? 'border-white/15' : 'border-slate-200'
 
   return (
-    <div className={`relative z-50 ${theme === 'dark' ? '' : 'bg-white/90 shadow-sm'}`} data-aos='fade-down'>
-      <div className={`container mx-auto px-4 md:px-8 lg:px-16 py-5 ${theme === 'dark' ? '' : ''}`}>
+    <div className={`relative z-50 ${theme === 'dark' ? '' : 'bg-white/90 shadow-sm'}`}>
+      <div className={`container mx-auto px-4 md:px-8 lg:px-16 py-5`}>
         <div className='flex items-center justify-between gap-4'>
           <NavLink to='/' className={`font-black tracking-tight text-2xl ${textClass}`}>
             TECH-SHELL
@@ -42,10 +42,10 @@ const Navbar = ({ theme, toggleTheme, cartCount }) => {
           </div>
 
           <div className='flex items-center gap-3'>
-            <button onClick={toggleTheme} className='rounded-full border p-2 transition hover:border-cyan-400'>
+            <button onClick={toggleTheme} className='inline-flex h-10 w-10 items-center justify-center rounded-full border transition hover:border-cyan-400'>
               {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
             </button>
-            <NavLink to='/cart' className='relative rounded-full border p-2 transition hover:border-cyan-400'>
+            <NavLink to='/cart' className='relative inline-flex h-10 w-10 items-center justify-center rounded-full border transition hover:border-cyan-400'>
               <ShoppingBag size={20} className={secondaryText} />
               {cartCount > 0 && (
                 <span className='absolute -top-2 -right-2 inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-cyan-400 px-1.5 text-[10px] font-bold text-slate-950'>
@@ -53,7 +53,7 @@ const Navbar = ({ theme, toggleTheme, cartCount }) => {
                 </span>
               )}
             </NavLink>
-            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='md:hidden rounded-full border p-2 transition hover:border-cyan-400'>
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='md:hidden inline-flex h-10 w-10 items-center justify-center rounded-full border transition hover:border-cyan-400'>
               {isMenuOpen ? <X size={24} className={secondaryText} /> : <Menu size={24} className={secondaryText} />}
             </button>
           </div>
